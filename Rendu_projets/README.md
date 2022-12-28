@@ -1,21 +1,25 @@
-# Pratique de la programmation - projets
+Bonjour, 
+Voici notre projet de programmation !
+Tout à été fait par Léo LECROQ et Mathieu QUEMENER !
 
-Ceci est le lieu de dépôt des projets réalisés en binome, contenus dans un unique dossier par projet nommé selon la forme suivante: prenom1Nom1-prenom2Nom2.
 
-En plus des fichiers nécessaires à l'exécution de l'application et des commentaires contenus dans ces fichiers, merci d'ajouter un fichier README.md détaillant le fonctionnement et les manipulations à effectuer pour tester votre projet.
+# Manipulation pour utilisé le "Cyber Fart Generator XTRM"
 
-Votre projet doit répondre auxpoints suivants :
-- Utiliser nodejs pour requêter une API et récupérer des données.
-- Envoyer ces données en OSC (toujours avec nodejs)
-- Récupérer ces données dans pure data et les utiliser pour en faire ce que vous souhaitez.
+- Ouvrir le patch Pure DATA nommée "fart_patch".
 
-L'évaluation portera sur deux points : 
-- La clarté du code et sa documentation :
-    Tout doit être clair et évident pour toute personne reprenant votre code
-- La fonctionnalité de votre application :
-    Votre programme doit fonctionner dans l'idéal parfaitement et être utilisable
+- Activé le DSP dans la console de Pure DATA (pour écouté le son mélodieux du "Cyber Fart Generator XTRM").
+(Normalement la liaison avec le serveur OSC est automatisé mais si cela ne fonctionne pas il faudra cliqué netReceive en cliquant sur le message "listen 3001")
 
-La complexité du projet ou le propos artistique ne sont pas évalués.
+- Nous vous recommandont de baissé le volume de votre sortie sonore pour ne pas vous explosé les oreilles (Le Cyber Fart Generator XTRM etant un outil puissant, il ne faudrait pas se bléssé avec...)
+
+- Ouvrir le CMD dans la racine du projet et éxécuté la commande "node cyber_fart_generator_XTRM.js"
+- Normalment vous etes censé entendre des sons pas ouf. Si ce n'est pas le cas, contacter nous que l'on fasse du debug parce que chez nous ça marchait.
+
+# Avoir des détails du code
+- Vous pouvez ouvrir le fichier nommé "cyber_fart_generator_XTRM.js" pour découvrir notre code qui sera commenté sur chaque ligne.
+
+# Détail de création
+Tout à été fait sur Visual Studio Code ainsi que sur Pure DATA.
 
 
 
